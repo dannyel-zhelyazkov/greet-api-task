@@ -1,0 +1,20 @@
+:root {
+  /* SPACING */
+  --half-spacing: calc(var(--base-spacing) / 2);
+  --base-spacing: 1rem;
+  --double-spacing: calc(var(--base-spacing) * 2);
+
+  /* BORDER */
+  --border-radius: .5rem;
+
+  /*GREET CARD*/
+  --greet-card-width: 450px;
+  --greet-card-height: 250px;
+  --greet-card-background: #3626a6;
+  --greet-card-image-width: 120px;
+
+  /* SPINNER */
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
